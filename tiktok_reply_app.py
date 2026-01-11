@@ -5,19 +5,17 @@ app = Flask(__name__)
 
 # 🔧 KONFIGURACIJA – OVO POPUNI
 PANEL_URL = "https://dnoxsmm.com/api/v2"
-API_KEY = "09e6e0fdfba11b73696a0a04965d2fe5"          # npr. 6b4b33ef856ee4ef973fcaa450e62786
+API_KEY = "9ac4c0f164ee732a4c00319e126022c4"          # npr. 6b4b33ef856ee4ef973fcaa450e62786
 SERVICE_ID = 4575                           # STAVI TAČAN service ID za TikTok custom comment reply
 
 # 🔁 LISTE REPLYEVA – TVOJE LISTE
 
 REPLIES_SET_1 = [
-    "For me its scary how much power this book has. I felt like someone had reached into my head and exposed everything about how money acutally works... ",
-    "The fact is, this book is real and it truly teaches you how to be successful. It's up to each of us to take the chance and read it. Goated book"
-    "IS IT REAL that people actually know about this book??? I’m so happy to see others who’ve read it too. Chapter 4 is literally a gold mine, it changed an entire area of my life",
-    "This book will become top 1 for money strategies and mindset, I can guarantee that. I highly recommend it to everyone..",
-    "Ok so i started seeing this book everywhere lately and btw I did a little research… it actually seems like the real deal. I’m only on chapter 2 but it already has some crazy good info. I also looked deeper and heard that Ethan had some connections with secret societies and pulled a lot of knowledge from there that’s usually hidden from the average person, so no wonder the book is kinda hidden and so good",
-    "this book is literally a must-read when it comes to money and success. I’m shocked it’s still not a best seller after so many legit stories",
-    "claimm",
+    "tbh, I only checked it out to see why people were talking about it, and honestly, turns out this book is really on another level",
+"honestly shocked this hasn’t gone viral yet. way more people need to read this.",
+"fr, it feels like every chapter unlocks something I didn’t even realize was holding me back.",
+"I thought it was just another overhyped self-help book, but halfway through I realized it’s operating on a different frequency.",
+"How has this not blown up yet? Far too few people are actually reading it.",
     
    
     
@@ -25,16 +23,11 @@ REPLIES_SET_1 = [
 ]
 
 REPLIES_SET_2 = [
-    "this book changed my life too a few years ago. It’s not the usual BS like other LOA books, i genuinely recommend everyone to read it. Logan is a genius",
-    "IS IT REAL that people actually know about this book??? I’m so happy to see others who’ve read it too. Chapter 4 is literally a gold mine, it changed an entire area of my life",
-    "why are so many people praising this book? i wanna hear your detailed stories plsss",
-    "claimm",
-    "Amen",
-    "where do i find this book yall???",
-    "I just ordered it so i’ll read it soon, i can’t keep running from reality. I really hope this helps me",
-    "hmm i’m skeptical but i’ll give it a chance, the book is insanely cheap anyway",
-    "Ok so i started seeing this book everywhere lately and btw I did a little research… it actually seems like the real deal. I’m only on chapter 2 but it already has some crazy good info. I also looked deeper and heard that Logan had some connections with secret societies and pulled a lot of knowledge from there that’s usually hidden from the average person, so no wonder the book is kinda hidden and so good",
-    "this book is literally a must-read when it comes to manifestation. I’m shocked it’s still not a best seller after so many legit stories",
+   "tbh, I only checked it out to see why people were talking about it, and honestly, turns out this book is really on another level",
+"honestly shocked this hasn’t gone viral yet. way more people need to read this.",
+"fr, it feels like every chapter unlocks something I didn’t even realize was holding me back.",
+"I thought it was just another overhyped self-help book, but halfway through I realized it’s operating on a different frequency.",
+"How has this not blown up yet? Far too few people are actually reading it.",
 ]
 
 HTML_TEMPLATE = """
@@ -331,5 +324,6 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
