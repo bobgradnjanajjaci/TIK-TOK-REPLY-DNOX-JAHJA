@@ -11,11 +11,15 @@ SERVICE_ID = 4575                           # STAVI TAČAN service ID za TikTok 
 # 🔁 LISTE REPLYEVA – TVOJE LISTE
 
 REPLIES_SET_1 = [
-    "tbh, I only checked it out to see why people were talking about it, and honestly, turns out this book is really on another level",
-"honestly shocked this hasn’t gone viral yet. way more people need to read this.",
-"fr, it feels like every chapter unlocks something I didn’t even realize was holding me back.",
-"I thought it was just another overhyped self-help book, but halfway through I realized it’s operating on a different frequency.",
-"How has this not blown up yet? Far too few people are actually reading it.",
+     "I saw that this book was removed few times, and there are rumors that the author is part of some high tier people. It really revealed too much",
+ "honestly shocked this isn’t viral yet. everyone needs to read money beyond horizons fr",
+ "Fr bro, it’s like every chapter unlocks something I didn’t even know was holding me back.",
+ "for me its scary how much power this book has",
+ "tbh, I only checked it out to see why people were talking about it, and honestly, turns out this book is really something different",
+ "this book doesn’t vanish by accident, someone doesn’t want it out there.",
+ "That book has so much knowledge about money and success, I can’t even explain it.",
+ "Money Beyond Horizons remains the only book that has not yet been breached, people should consider trying it before it’s too late.",
+ "I thought it was just another overhyped self help book, but halfway through I realized it’s operating on a completely different frequency.",
     
    
     
@@ -324,6 +328,7 @@ def index():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
 
 
 
